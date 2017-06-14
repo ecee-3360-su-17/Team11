@@ -17,16 +17,16 @@ void blink (int n){
     int dotDash = 0;
     int pinLED = 0;
 
-    for( int i = 0; i < 5; i++){             // 5 bits
-        // dotDash = pattern(bit(i))                                     // must save least significant bit then shift bits for 'pattern' logical right.
+    for( int i = 0; i < 5; i++){             // 5 bits (0-4)
+        dotDash = (pattern >> i) & 0x01;     // read a bit at a time
         if(dotDash == 1){
         	pinLED = 1;
-        	for (i = 0; i < 50000; i++){}    // long pause while LED on for a 1
+        	for (int i = 0; i < 50000; i++){}    // long pause while LED on for a 1
         	pinLED = 0;
         }
         if else(dotDash == 0){
         	pinLED = 1;
-        	for (i = 0; i < 20000; i++){}    // short pause while LED on for a 0
+        	for (int i = 0; i < 20000; i++){}    // short pause while LED on for a 0
         	pinLED = 0;
         }
         else {
