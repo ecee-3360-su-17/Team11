@@ -91,27 +91,27 @@ Void heartBeatFxn(UArg arg0, UArg arg1)
         MsgObj msg;
         Mailbox_pend(mbxHandle, &msg, BIOS_WAIT_FOREVER);
             switch(msg.val){
-            case 'o':
+            case 0:
                 GPIO_write(red, off);
                 GPIO_write(green, off);
                 GPIO_write(blue, off);
                 break;
 
-            case '1':
+            case 1:
                 GPIO_write(red, on);
                 GPIO_write(blue, on);
                 GPIO_write(green, on);
                 break;
 
-            case 'r':
+            case 3:
                 GPIO_write(red, on);
                 break;
 
-            case 'b':
+            case 4:
                 GPIO_write(blue, on);
                 break;
 
-            case 'g':
+            case 5:
                 GPIO_write(green, on);
                 break;
 
