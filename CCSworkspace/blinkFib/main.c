@@ -11,6 +11,9 @@ int main(void) {
 	return 0;
 }
 
+void read_
+
+
 //blinking function
 void blink (int n){
     char pattern = convert_to_morse(n);

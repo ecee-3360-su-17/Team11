@@ -1,0 +1,10 @@
+"package/cfg/empty_pem4f.c", line 755: warning #145-D: a value of type "xdc_Ptr (*)(xdc_Ptr, xdc_SizeT, xdc_Ptr, const xdc_UChar *, xdc_SizeT, xdc_runtime_Error_Block *)" cannot be used to initialize an entity of type "xdc_Ptr (*)(xdc_CPtr, const xdc_UChar *, xdc_SizeT, xdc_runtime_Error_Block *)"
+"package/cfg/empty_pem4f.c", line 776: warning #145-D: a value of type "xdc_Ptr (*)(xdc_Ptr, xdc_SizeT, xdc_Ptr, const xdc_UChar *, xdc_SizeT, xdc_runtime_Error_Block *)" cannot be used to initialize an entity of type "xdc_Ptr (*)(xdc_CPtr, const xdc_UChar *, xdc_SizeT, xdc_runtime_Error_Block *)"
+"package/cfg/empty_pem4f.c", line 798: warning #145-D: a value of type "xdc_Ptr (*)(xdc_Ptr, xdc_SizeT, xdc_Ptr, const xdc_UChar *, xdc_SizeT, xdc_runtime_Error_Block *)" cannot be used to initialize an entity of type "xdc_Ptr (*)(xdc_CPtr, const xdc_UChar *, xdc_SizeT, xdc_runtime_Error_Block *)"
+"package/cfg/empty_pem4f.c", line 3970: warning #145-D: a value of type "const __T1_ti_sysbios_knl_Idle_funcList *" cannot be used to initialize an entity of type "ti_sysbios_knl_Idle_FuncPtr *"
+"package/cfg/empty_pem4f.c", line 3974: warning #145-D: a value of type "const __T1_ti_sysbios_knl_Idle_coreList *" cannot be used to initialize an entity of type "xdc_UInt *"
+"package/cfg/empty_pem4f.c", line 13963: error #148: declaration is incompatible with "xdc_Ptr ti_sysbios_BIOS_RtsGateProxy_Proxy__delegate__S(void)" (declared at line 244 of "C:/ti/tirtos_tivac_2_16_00_08/products/bios_6_45_01_29/packages/ti/sysbios/package/BIOS_RtsGateProxy.h")
+"package/cfg/empty_pem4f.c", line 14142: fatal error #35: #error directive: The package 'ti.sysbios.family.arm.lm4' is not compatible with XDCtools used in this build. Please rebuild the package with XDCtools 3.50 or later.
+1 error and 1 catastrophic error detected in the compilation of "package/cfg/empty_pem4f.c".
+Compilation terminated.
+xdctools_3_50_01_12_core\gmake.exe: *** [package/cfg/empty_pem4f.oem4f] Error 1
